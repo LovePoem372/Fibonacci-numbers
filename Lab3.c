@@ -1,17 +1,4 @@
 
-/*
-Shawn Ren
-CPSC 1071 Section 5A – Fall 2025
-Part C of Lab #3
-Due: 10/6/2025
-This program consists of four files: lab3.c, generateFib.c, printResults.c, and defs.h
-lab3.c checks the command-line argument and passes it to
-generateFib.c and printResults.c
-All files include defs.h, which contains the function
-prototypes and necessary definitions
-generateFib.c generates a series of Fibonacci numbers
-printResults.c prints a histogram of the Fibonacci sequence
-*/
 #include "defs.h"
 
 int main(int argc, char* argv[]) {
@@ -42,4 +29,5 @@ int main(int argc, char* argv[]) {
     arr = NULL; // re assign to NULL.
     
     return 0;
+
 }
