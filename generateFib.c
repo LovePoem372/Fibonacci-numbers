@@ -1,9 +1,9 @@
 #include "defs.h"
 
 /*
-This function to generate the Fibonacci numbers
-by setting the first 2 to be 0 and 1
-then array starts at 2 find f(n) by doing f(n-1) + f(n-2)
+This is a function to generate the Fibonacci numbers
+we set the first 2 to be 0 and 1
+then for loop the array starting at 2 find f(n) by doing f(n-1) + f(n-2)
 */
 int* generateFibonacci(int *arr, int size) {
 
@@ -22,5 +22,6 @@ else { // for size < 2
     arr[1] = 1; 
     return arr;
 }
+
 
 }
